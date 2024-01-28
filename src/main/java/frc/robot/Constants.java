@@ -25,4 +25,10 @@ public final class Constants {
     public static final int gearRatio = 3/4;
     public static final double percentOutput = 0.75;
   }
+
+  public static class PivotConstants {
+    public final static int pivotMotor_1 = 0;
+    public final static int pivotMotor_2 = 1;
+    public final static double pivotSpeed = 0.5;
+  }
 }

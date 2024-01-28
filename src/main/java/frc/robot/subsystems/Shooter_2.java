@@ -1,8 +1,9 @@
 package frc.robot.subsystems;
 
 import com.ctre.phoenix6.hardware.TalonFX;
+import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
-public class Shooter_2 {
+public class Shooter_2 extends SubsystemBase {
     private TalonFX shooter_1;
     private TalonFX shooter_2;
     private double m_gearRatio;
